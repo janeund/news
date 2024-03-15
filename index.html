@@ -15,26 +15,37 @@
         <div class="logo-wrapper">
           <img class="header-logo" src="./assets/images/logo.svg" alt="logo">
         </div>
-        <button style="display: none;" class="mobile-nav-toggle" aria-controls="primary-navigation"><span
-            class="sr-only" aria-expanded="false">Menu</span></button>
-        <nav class="header-menu">
-          <ul class="menu-list">
-            <li class="menu-item active">
-              <a class="menu-link" href="index.html">Home</a>
-            </li>
-            <li class="menu-item active">
-              <a class="menu-link" href="#home">New</a>
-            </li>
-            <li class="menu-item active">
-              <a class="menu-link" href="#home">Popular</a>
-            </li>
-            <li class="menu-item active">
-              <a class="menu-link" href="#home">Trending</a>
-            </li>
-            <li class="menu-item active">
-              <a class="menu-link" href="#home">Categories</a>
-            </li>
-          </ul>
+        <nav class="nav" aria-label="Site">
+          <button id="btnOpen" class="nav-open" aria-labelledby="nav-label" aria-expanded="false">
+            <span id="nav-label" hidden>Navigation</span>
+            <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g fill="#00001A" fill-rule="evenodd">
+                <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+                <path d="M0 0h40v3H0z" />
+              </g>
+            </svg>
+          </button>
+          <div class="nav-content">
+            <button class="btnClose" class=""></button>
+            <ul class="menu-list">
+              <li class="menu-item active">
+                <a class="menu-link" href="index.html">Home</a>
+              </li>
+              <li class="menu-item active">
+                <a class="menu-link" href="#home">New</a>
+              </li>
+              <li class="menu-item active">
+                <a class="menu-link" href="#home">Popular</a>
+              </li>
+              <li class="menu-item active">
+                <a class="menu-link" href="#home">Trending</a>
+              </li>
+              <li class="menu-item active">
+                <a class="menu-link" href="#home">Categories</a>
+              </li>
+            </ul>
+          </div>
+
         </nav>
       </header>
       <main class="main">
