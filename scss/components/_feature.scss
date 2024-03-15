@@ -12,28 +12,25 @@
     grid-template-rows: subgrid;
   }
 
-  &__picture {
+  &-picture {
     @media (width >= u.em(1110)) {
       grid-column: 1 / 3;
     }
   }
 
-  &__image {
-  }
-
-  &__headline {
+  &-title {
     font-size: u.rem(40);
     font-size: var(--f-xl);
     font-weight: 800;
   }
 
-  &__description {
+  &-desc{
     p {
       margin-block-end: u.rem(30);
     }
   }
 
-  &__button {
+  &-button {
     justify-self: start;
     display: inline-block;
     background-color: var(--c-red);
@@ -43,6 +40,8 @@
     font-weight: 700;
     text-transform: uppercase;
     padding: u.rem(12) u.rem(32);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
 
     &:hover {
       background-color: var(--c-blue);
