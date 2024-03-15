@@ -63,6 +63,7 @@ a {
   text-decoration: none;
   transition: 150ms ease-in-out;
   transition-property: color, background-color;
+  color: inherit;
 }
 
 img {
@@ -75,6 +76,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 li {
   list-style-type: none;
 }
