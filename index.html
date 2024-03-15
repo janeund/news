@@ -11,9 +11,9 @@
 <body>
   <div class="page-wrapper">
     <div class="page-container container">
-      <header class="header">
+      <header class="header wrapper">
         <div class="logo-wrapper">
-          <img src="./assets/images/logo.svg" alt="logo">
+          <img class="header-logo" src="./assets/images/logo.svg" alt="logo">
         </div>
         <button style="display: none;" class="mobile-nav-toggle" aria-controls="primary-navigation"><span
             class="sr-only" aria-expanded="false">Menu</span></button>
@@ -38,11 +38,13 @@
         </nav>
       </header>
       <main class="main">
-        <article>
+        <article class="wrapper grid">
           <section class="feature">
             <picture class="feature-picture">
-              <source media="(min-width: 43.75em)" srcset="./assets/images/image-web-3-desktop.jpg">
-              <img class="feature-img" src="./assets/images/image-web-3-mobile.jpg" alt="web 3.0">
+              <source media="(min-width: 43.75em)" srcset="./assets/images/image-web-3-desktop.jpg" width="730"
+                height="300">
+              <img class="feature-img" src="./assets/images/image-web-3-mobile.jpg" width="343" height="300"
+                alt="web 3.0">
             </picture>
             <h1 class="feature-title"> The Bright Future of Web 3.0?</h1>
             <div class="feature-info">
