@@ -10,25 +10,25 @@
     padding-block-start: u.rem(40);
   }
 
-  &__item {
+  &-item {
     display: grid;
     grid-template-columns: u.rem(100) auto;
     grid-template-rows: repeat(3, auto);
     gap: u.rem(10) u.rem(24);
   }
 
-  &__image {
+  &-img {
     grid-row: 1 / 4;
   }
 
-  &__number {
+  &-number {
     color: var(--c-silver);
     font-size: var(--f-m);
     line-height: 1;
     font-weight: 700;
   }
 
-  &__headline {
+  &-headline {
     align-self: center;
 
     a {
@@ -43,7 +43,7 @@
     }
   }
 
-  &__description {
+  &-description {
     align-self: end;
   }
 }
