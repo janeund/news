@@ -19,9 +19,11 @@
 }
 .menu {
   &-list {
-    @media (width >= u.em(1110)) {
-      display: flex;
-      gap: u.rem(40);
+    display: flex;
+    gap: u.rem(40);
+    @media (width < u.em(1110)) {
+      flex-direction: column;
+      gap: u.rem(24);
     }
   }
   &-link {
