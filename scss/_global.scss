@@ -1,5 +1,4 @@
 @use 'util' as u;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
   --c-white: #fffdfa;
@@ -42,6 +41,7 @@ body {
   font-size: var(--f-body);
   line-height: 1.7;
   color: var(--c-gray);
+  padding-block-end: 50vh;
 }
 
 h1,
@@ -62,7 +62,6 @@ a {
   text-decoration: none;
   transition: 150ms ease-in-out;
   transition-property: color, background-color;
-  color: inherit;
 }
 
 img {
@@ -75,7 +74,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 li {
   list-style-type: none;
 }

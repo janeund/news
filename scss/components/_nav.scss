@@ -11,7 +11,7 @@
     }
   }
 
-  &-open[aria-expanded='true'] {
+  &__open[aria-expanded='true'] {
     ~ .nav__content {
       translate: 0;
 
@@ -25,7 +25,7 @@
     }
   }
 
-  &-content {
+  &__content {
     @media (width < u.em(1110)) {
       display: none;
       position: fixed;
@@ -43,13 +43,13 @@
     }
   }
 
-  &-close {
+  &__close {
     display: block;
     margin-inline-start: auto;
     margin-block-end: u.rem(86);
   }
 
-  &-overlay {
+  &__overlay {
     display: none;
     position: fixed;
     inset: 0;
